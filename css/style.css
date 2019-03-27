@@ -1,0 +1,155 @@
+/*Geral*/
+
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+body{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Banner*/
+.banner{
+    /*background-image:url('../img_workshop/img/banner-bg.png'); Banner reprograma*/
+    background-image:url('../img_workshop/Daniela.JPG');
+    background-size: cover;
+    background-position: center;
+    /*background-repeat: no-repeat; Caso estivesse repetindo a imagem*/ 
+    height: 90vh;
+    text-align: center;
+}
+
+.banner__texto{
+    color: white;
+    /* Localização do texto na página*/
+    padding-top: 30%;
+}
+
+.banner__titulo{
+    font-size:50px;
+    margin-bottom:15px;
+}
+
+.banner__subtitulo{
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+.btn{
+    background-color: white;
+    color: #7E459B;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*Sobre mim*/
+.sobre-mim{
+    /*border: 1px solid red; Borda que colocamos para visualizar melhor os "blocos"*/
+    margin: 0 15%;
+    text-align: left;
+}
+
+.sobre-mim__descricao, .sobre-mim__habilidades{
+    /*border: 1px solid blue; Borda que colocamos para visualizar melhor os "blocos"*/
+    display: inline-block;
+    width: 45%;
+    font-size: 16px;  
+    text-align: left; 
+    padding-bottom: 10px; 
+    line-height: 30px;
+    
+}
+
+.sobre-mim__habilidades{
+    /*border: 1px solid green; Borda que colocamos para visualizar melhor os "blocos"*/
+    margin-left: 50px;
+    vertical-align: top;
+}
+
+.sobre-mim__titulo{
+    font-size: 40px;
+    text-align: left;
+    color: #C4C4C4;
+    margin:30px 0;
+}
+
+.destaque{
+    color: #7E459B;;
+    font-weight: bold;
+}
+
+.sobre-mim__descricao p{
+    margin-bottom: 20px;
+    text-align:justify;
+}
+
+.btn-roxo{
+    border: 1px solid #7E459B;
+    margin-bottom: 30px;
+}
+
+.habilidades__titulo{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.habilidades__lista{
+    padding-left:17px;
+}
+
+/*Rodapé*/
+.rodape{
+    /*border: 1px solid red; 
+    background-color: gray; Borda e fundo que colocamos para visualizar melhor os "blocos"*/
+}
+.rodape__contatos{
+    /*border: 1px solid blue; Borda que colocamos para visualizar melhor os "blocos"*/
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    margin: 5% 15%;
+}
+
+.contatos__link{
+    background-color:#7E459B;
+    padding: 25px 30px;
+    text-align: center;
+    width: 200px;
+    /*width: auto;*/
+}
+
+.contatos__link-img{
+    width: 70px;
+    height:70px;
+    margin-bottom:15px;
+}
+
+.contatos__link h4,.contatos__link p{
+    margin-bottom:10px;
+    color:white;
+    font-size:16px;
+}
+
+.contatos__link h4{
+font-weight:bold;
+}
+
+.contatos__link p{
+font-weight:lighter;
+}
+
+.copyright{
+    color:#c4c4c4;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+}
